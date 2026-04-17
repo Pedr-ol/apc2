@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int inverter(int x) {
+    return -x;
+}
+
+int main () {
+    int x = 1;
+    int invertido = inverter(x);
+
+    printf("Número original: %d\n", x);
+    printf("Número com sinal invertido: %d\n", invertido);
+
+    return 0;
+}
